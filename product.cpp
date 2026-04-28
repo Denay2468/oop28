@@ -19,3 +19,15 @@ class Product
             cout << "Production Date: " << productionDate << endl;
         }
 };
+
+int main(){
+    Product electronics;
+    electronics.Name = "Samsung Smart TV";
+    electronics.quantity = 50;
+    electronics.category = "Electronics";
+    electronics.productionDate = "2024-03-15";
+
+
+
+    electronics.display();
+}
