@@ -34,8 +34,11 @@ int main(){
     nonElectronics.category = "Non-Electronics";
     nonElectronics.productionDate = "2024-02-10";
 
+    cout << "===== Product Data Management =====" << endl;
 
-
+    cout << "===== Electronics Product =====" << endl;
     electronics.display();
+    
+    cout << "===== Non-Electronics Product =====" << endl;
     nonElectronics.display();
 }
