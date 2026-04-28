@@ -16,3 +16,15 @@ class Student
             cout << "Grade: " << Grade << endl;
         }
 };
+
+int main()
+{
+    Student student1;
+    student1.NIM = 2024;
+    student1.Name = "Sule";
+    student1.Grade = 75.5;
+
+    student1.display();
+
+    return 0;
+}
