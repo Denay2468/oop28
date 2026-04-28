@@ -21,13 +21,21 @@ class Product
 };
 
 int main(){
+
     Product electronics;
     electronics.Name = "Samsung Smart TV";
     electronics.quantity = 50;
     electronics.category = "Electronics";
     electronics.productionDate = "2024-03-15";
 
+    Product nonElectronics;
+    nonElectronics.Name = "Wooden Chair";
+    nonElectronics.quantity = 100;
+    nonElectronics.category = "Non-Electronics";
+    nonElectronics.productionDate = "2024-02-10";
+
 
 
     electronics.display();
+    nonElectronics.display();
 }
