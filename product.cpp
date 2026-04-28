@@ -38,7 +38,9 @@ int main(){
 
     cout << "===== Electronics Product =====" << endl;
     electronics.display();
-    
+
     cout << "===== Non-Electronics Product =====" << endl;
     nonElectronics.display();
+
+    return 0;
 }
